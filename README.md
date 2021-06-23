@@ -1,0 +1,2 @@
+# ConsoleCalculator
+Project for School
