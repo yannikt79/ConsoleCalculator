@@ -40,12 +40,12 @@
         <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>3.0.2</version>
+        <version>3.2.0</version>
         <configuration>
           <archive>
             <mainfest>
               <addClasspath>true</addClasspath>
-              <mainClass>org.example.Calculator</mainClass>
+              <mainClass>org.example.Calculator.java</mainClass>
             </mainfest>
           </archive>
         </configuration>
