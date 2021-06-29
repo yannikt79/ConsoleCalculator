@@ -45,6 +45,7 @@
           <archive>
             <mainfest>
               <addClasspath>true</addClasspath>
+              <mainClass>org.example.Calculator</mainClass>
             </mainfest>
           </archive>
         </configuration>
