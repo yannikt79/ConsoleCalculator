@@ -8,4 +8,8 @@ public class Calculator {
     public int difference(int number1,int number2){
         return number1-number2;
     }
+
+    public int divisionWithNull(int number1,int number2){
+        return number1/number2;
+    }
 }

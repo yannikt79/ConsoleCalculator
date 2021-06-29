@@ -18,4 +18,9 @@ public class CalculatorTest {
         calculator = new Calculator();
         assertTrue(calculator.difference(20,10) ==10);
     }
+    @Test
+    public void testDivisionWithNull(){
+        calculator = new Calculator();
+        assertTrue(calculator.difference(10,0)==0);
+    }
 }
